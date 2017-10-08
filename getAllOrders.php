@@ -10,7 +10,7 @@
 	$params = "symbol=$symbol&timestamp=$serverTimestamp"; // Set required paramaters
 	$signiture = hash_hmac("sha256", $params, $secretKey); // Take the parameters, and sign them with the Secret Key
 	curl_setopt($ch, CURLOPT_URL, "https://www.binance.com/api/v3/allOrders?$params&signature=$signiture"); // Set URL + Parameters + Signiture
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); // Return values
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); // Allow Return values
 	curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET"); // HTTP Method to GET
 
 	$headers = array(); // Set up our Headers
