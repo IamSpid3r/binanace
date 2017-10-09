@@ -6,8 +6,9 @@
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);	 // Return results
 	curl_setopt($ch, CURLOPT_URL,"https://www.binance.com/api/v1/ticker/24hr?symbol=".$symbol); //Set URL
 	$result = curl_exec($ch); // Exectute cURL command
-	//Decode json
+	curl_close ($ch); // Close cURL
 	$json = json_decode($result); // Results returned in jSON, decode and store in $json
 		
 	$price = $json->lastPrice; //Access the object lastPrice
+
 	echo $price; 
