@@ -1,0 +1,120 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+.isa_info, .isa_success, .isa_warning, .isa_error {
+margin: 10px 0px;
+padding:12px;
+ 
+}
+.isa_info {
+    color: #00529B;background-color: #BDE5F8;
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+    margin:10px 22px;
+    font-size:2em;
+}
+
+.sell { 
+  color: #FFFFFF; 
+  background-color: #F70840; 
+  border-color: #FFFFFF; 
+} 
+ 
+.sell:hover, 
+.sell:focus, 
+.sell:active, 
+.sell.active, 
+.open .dropdown-toggle.sell { 
+  color: #FFFFFF; 
+  background-color: #B02929; 
+  border-color: #FFFFFF; 
+} 
+ 
+.sell:active, 
+.sell.active, 
+.open .dropdown-toggle.sell { 
+  background-image: none; 
+} 
+ 
+.sell.disabled, 
+.sell[disabled], 
+fieldset[disabled] .sell, 
+.sell.disabled:hover, 
+.sell[disabled]:hover, 
+fieldset[disabled] .sell:hover, 
+.sell.disabled:focus, 
+.sell[disabled]:focus, 
+fieldset[disabled] .sell:focus, 
+.sell.disabled:active, 
+.sell[disabled]:active, 
+fieldset[disabled] .sell:active, 
+.sell.disabled.active, 
+.sell[disabled].active, 
+fieldset[disabled] .sell.active { 
+  background-color: #F70840; 
+  border-color: #FFFFFF; 
+} 
+ 
+.sell .badge { 
+  color: #F70840; 
+  background-color: #FFFFFF; 
+}
+
+
+.buy { 
+  color: #FFFFFF; 
+  background-color: #56A106; 
+  border-color: #FFFFFF; 
+} 
+ 
+.buy:hover, 
+.buy:focus, 
+.buy:active, 
+.buy.active, 
+.open .dropdown-toggle.buy { 
+  color: #FFFFFF; 
+  background-color: #2A7A24; 
+  border-color: #FFFFFF; 
+} 
+ 
+.buy:active, 
+.buy.active, 
+.open .dropdown-toggle.buy { 
+  background-image: none; 
+} 
+ 
+.buy.disabled, 
+.buy[disabled], 
+fieldset[disabled] .buy, 
+.buy.disabled:hover, 
+.buy[disabled]:hover, 
+fieldset[disabled] .buy:hover, 
+.buy.disabled:focus, 
+.buy[disabled]:focus, 
+fieldset[disabled] .buy:focus, 
+.buy.disabled:active, 
+.buy[disabled]:active, 
+fieldset[disabled] .buy:active, 
+.buy.disabled.active, 
+.buy[disabled].active, 
+fieldset[disabled] .buy.active { 
+  background-color: #56A106; 
+  border-color: #FFFFFF; 
+} 
+ 
+.buy .badge { 
+  color: #56A106; 
+  background-color: #FFFFFF; 
+}
