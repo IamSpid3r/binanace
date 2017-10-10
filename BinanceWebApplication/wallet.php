@@ -1,5 +1,5 @@
 <?php
-	include 'api.php';
+	include 'api.php'; // Get the API and Secret Keys to use in this page
 	
 ?>
 
