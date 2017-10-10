@@ -3,8 +3,8 @@
 	$apiKey = "vmPUZE6mv9SD5VNHk4HlWFsOr6aKE2zvsw0MuIgwCIPy6utIco14y7Ju91duEh8A"; // Set your API Key
 	$secretKey = "NhqPtmdSJYdKjVHjA7PZj4Mge3R5YNiP1e3UZjInClVN65XAbvqqM6A7H5fATj0j"; // Set your Secret Key
 	
-	$symbol = "BNBBTC"; // Set which pair you want to get orders for
-	$orderID = "12341234";
+	$symbol = "BNBBTC"; // Set which pair you want to get orders
+	$orderID = "12341234"; //Set which order ID you want an update on
 	$serverTimestamp = time()*1000; // Take current UNIX timestamp and convert to miliseconds
 	
 	$ch = curl_init(); // Initialise cURL
